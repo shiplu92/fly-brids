@@ -1,0 +1,185 @@
+*{
+  font-family: "montserrat",sans-serif;
+}
+
+.page{
+  background: #f1f1f1;
+  display: flex;
+  flex-wrap: wrap;
+}
+.col{
+  flex: 1;
+  height: 100vh;
+  position: relative;
+}
+.countdown-col{
+  background: url(bg.png) no-repeat center;
+  background-size: cover;
+}
+.time{
+  color:red;
+  text-transform: uppercase;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+.middle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.time span{
+  padding: 0 14px;
+  font-size: 10px;
+    
+    color:snow;
+    font-style: oblique;
+}
+.time span div{
+  font-size: 40px;
+}
+
+.newsletter{
+    display:block;
+    
+  width: 90%;
+    height: 100%;
+    background-image: url(dh.jpeg)
+      
+    
+       
+        
+        
+        
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.newsletter h6{
+    padding: 90px;
+  font-style: italic;
+  font-size: 25px;
+    color: chartreuse;
+   
+   
+    
+    
+    
+    
+}
+
+
+
+
+
+.newsletter h7{
+    color: fuchsia;
+    font-size: 20px;
+    font-style: oblique;
+}
+.newsletter input{
+  display: block;
+  margin: 12px auto;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+    border-radius: 30px;
+  padding: 14px 20px;
+ 
+  border: 1px solid #ddd;
+  outline: none;
+   
+}
+
+.newsletter-btn{
+  background: linear-gradient(125deg,#3498db,#34495e);
+  color: #fff;
+  cursor: pointer;
+  transition: 0.4s;
+    padding: 30px;
+    color: red;
+}
+.newsletter-btn:hover{
+  opacity: .7;
+}
+
+@media screen and (max-width :900px){
+  .col{
+    flex: 100%;
+  }
+}
+.text-count p{
+  
+    text-decoration-line: line-through;
+    text-align: center;
+	
+	color:gold;
+	font-size:29px;
+	
+	
+    font-language-override: normal;
+    font-stretch: condensed;
+    font-style: italic;
+    
+    
+    transform-origin:left;
+    animation: animate 2s linear infinite;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+@keyframes animate{
+0%{
+    transform:rotateY(0deg);
+}
+100%{
+    transform:rotateY(60deg);
+}
+}
+
+
+
+
+
+
+
+
